@@ -1,0 +1,6 @@
+*.js linguist-detectable
+*.py linguist-detectable
+*.go linguist-detectable
+*.sh linguist-detectable
+*.hcl linguist-detectable
+*.tf linguist-detectable
