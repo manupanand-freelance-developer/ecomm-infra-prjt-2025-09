@@ -1,6 +1,6 @@
 *.js linguist-detectable
 *.py linguist-detectable
 *.go linguist-detectable
-*.sh linguist-detectable
-*.hcl linguist-detectable
+*.sh linguist-weight=5
+*.hcl linguist-weight=5
 *.tf linguist-detectable
