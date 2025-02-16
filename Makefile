@@ -1,6 +1,12 @@
 dev:
+	
+	$(info Making dev infrastructure)
+	@echo "Makefile execution continues..."
+	$(info removing .terraform file)
 	rm -rf .terraform
+	$(info terraform init dev )
 	terraform init -backend-config=env-dev/state.tfvars
+	$(info terraform apply dev)
 	terraform apply -var-file=env-dev/main.tfvars -auto-approve
 
 prod:

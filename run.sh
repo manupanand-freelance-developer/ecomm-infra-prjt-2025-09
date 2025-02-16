@@ -1,5 +1,5 @@
 if [$# -ne 2]; then
-    echo $0 env(dev|prod) actionn(apply|destroy)
+    echo $0 env(dev|prod) action(apply|destroy)
     exit 1
 fi
 rm -rf .terraform
